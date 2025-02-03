@@ -1,0 +1,23 @@
+
+
+.weather_heading {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 800;
+    padding: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .weather_heading {
+        font-size: 32px;
+        padding: 16px;
+        font-weight: 900;
+    }
+    .main_wrapper {
+        padding: 90px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+}

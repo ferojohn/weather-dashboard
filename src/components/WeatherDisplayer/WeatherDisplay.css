@@ -1,0 +1,55 @@
+.details{
+    font-family: 'Roboto', sans-serif;
+}
+
+.details h2, .details p {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffff;
+    padding-top: 6px;
+  }
+
+  .details span{
+    font-size: 18px;
+    color: #e3dddd;
+}
+  .details h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffff;
+  }
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .weather-wrapper {
+      padding: 27px;
+    }
+  
+    .weather_img {
+      width: 6%;
+    }
+  
+    .details {
+      padding: 22px;
+      gap: 10px; 
+    }
+  
+    .details h2, .details p {
+      font-size: 26px;
+      font-weight: 400;
+      color: #ffff;
+    }
+  
+    .details h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffff;
+    }
+    .details span{
+        font-size: 20px;
+        color: #e3dddd;
+}
+  }
+  
